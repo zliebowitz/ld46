@@ -95,11 +95,11 @@
             }
         },
         {
-            "Key": "53caffbb-dc60-49a7-967e-740c89b4e881",
+            "Key": "48c7f23d-1582-432e-8b87-7f7382fecbd4",
             "Value": {
-                "id": "421622b1-50c6-4d49-898a-b930478bedda",
-                "resourcePath": "views\/53caffbb-dc60-49a7-967e-740c89b4e881.yy",
-                "resourceType": "GMFolder"
+                "id": "30a7b353-8d3f-47e4-ba79-763723ba5292",
+                "resourcePath": "sprites\\sprite_shinobo_walking\\sprite_shinobo_walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,11 +111,27 @@
             }
         },
         {
+            "Key": "5a0c75cc-442e-41f8-8324-2acaf4d77164",
+            "Value": {
+                "id": "6415b29f-ed29-41cc-8088-af56b23d43b0",
+                "resourcePath": "sprites\\sprite_shinobo_idle\\sprite_shinobo_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66acaaf7-a65c-4c41-98c4-58cb365d92fd",
             "Value": {
                 "id": "a748f875-a970-47a1-b7b6-e4be4c1ef347",
                 "resourcePath": "objects\/object_selection_controller\/object_selection_controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f435fb6-0042-46b9-ada0-79149d8c3e91",
+            "Value": {
+                "id": "dbfcef2e-7218-48b4-9230-f644ca561e76",
+                "resourcePath": "sprites\\sprite_shinobo_dashing\\sprite_shinobo_dashing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -132,6 +148,14 @@
                 "id": "8db36457-e489-49e5-b437-c2a48b8cdf00",
                 "resourcePath": "objects\/object_restart\/object_restart.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d62aab7-6762-44c1-bb88-13ed05615103",
+            "Value": {
+                "id": "3d729218-ceb0-4ea0-9548-5b3adfe4db60",
+                "resourcePath": "sprites\\sprite_shinobo_jumping\\sprite_shinobo_jumping.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "cff21e4c-0a84-4b12-97d2-f2eb3cb4dbaf",
+            "Value": {
+                "id": "b62e5b1a-0eea-4f3f-a720-0349a270a341",
+                "resourcePath": "sprites\\sprite_shinobo_attacking\\sprite_shinobo_attacking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7b0435e-50be-4257-a08e-3563002a7b95",
             "Value": {
                 "id": "d11a9dc1-810f-460b-8e79-5d791b415465",
@@ -316,6 +348,14 @@
                 "id": "6e9d579d-9345-48f7-bed3-ac05b47e53f8",
                 "resourcePath": "views\/daedbedc-632f-431a-94b4-1f94c618e82f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e054255c-a770-409e-bff5-1e088ae750e4",
+            "Value": {
+                "id": "2301f023-7b51-44c5-bb46-2e4a3c4d6c14",
+                "resourcePath": "sprites\\sprite_shinobo_falling\\sprite_shinobo_falling.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -356,6 +396,14 @@
                 "id": "332d2b41-58aa-4164-b2c8-82ccd958d626",
                 "resourcePath": "sprites\/sprite_start\/sprite_start.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ffcafd72-f783-40c5-a01e-590d41dcdb13",
+            "Value": {
+                "id": "1251d01a-c0a1-4f1f-a936-af523b00d8bc",
+                "resourcePath": "views\\ffcafd72-f783-40c5-a01e-590d41dcdb13.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],
