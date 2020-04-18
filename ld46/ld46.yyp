@@ -87,6 +87,22 @@
             }
         },
         {
+            "Key": "53caffbb-dc60-49a7-967e-740c89b4e881",
+            "Value": {
+                "id": "421622b1-50c6-4d49-898a-b930478bedda",
+                "resourcePath": "views\\53caffbb-dc60-49a7-967e-740c89b4e881.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "587aac06-6772-4c42-97da-e6895012a133",
+            "Value": {
+                "id": "4790a53e-5b9f-4363-9228-8ab33d717088",
+                "resourcePath": "sprites\\sprite_living_creature_idle\\sprite_living_creature_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66acaaf7-a65c-4c41-98c4-58cb365d92fd",
             "Value": {
                 "id": "a748f875-a970-47a1-b7b6-e4be4c1ef347",
@@ -135,6 +151,22 @@
             }
         },
         {
+            "Key": "8ed3c27f-e327-439a-8228-c92f27c461d8",
+            "Value": {
+                "id": "dd91b4fd-e634-4f46-a9bc-f56be240361f",
+                "resourcePath": "sprites\\sprite_living_creature_dying\\sprite_living_creature_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c232c1d-54c4-4b43-a428-e3ffaca7cc91",
+            "Value": {
+                "id": "b2c44788-7b00-4439-aca3-d5164a7c6f01",
+                "resourcePath": "sprites\\sprite_living_creature_victory\\sprite_living_creature_victory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a101dbce-2339-4c71-9f07-1c0b162c0a74",
             "Value": {
                 "id": "9a14f9f0-5268-465f-a8ad-f90dccecacb0",
@@ -155,6 +187,14 @@
             "Value": {
                 "id": "df65ccb6-835f-475e-9f29-38eb30fca468",
                 "resourcePath": "objects\/object_start\/object_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ab1c8b25-d40b-423e-88d6-92ef509a42b1",
+            "Value": {
+                "id": "e25ce430-8f1c-476a-adf5-25f23092a8c7",
+                "resourcePath": "objects\\object_living_creature\\object_living_creature.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -188,6 +228,22 @@
                 "id": "2b3a44a5-20ef-44fa-b17a-c47c93d620f0",
                 "resourcePath": "views\/bf42a7a4-fd91-4401-91ac-8f106adb1982.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c29ad6b7-d411-478e-af7b-9f8b5ce8ff46",
+            "Value": {
+                "id": "b828f26d-e055-4698-8c95-2d6df5cfb4b0",
+                "resourcePath": "views\\c29ad6b7-d411-478e-af7b-9f8b5ce8ff46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c49df7d5-242b-4d10-9017-318fa6d38065",
+            "Value": {
+                "id": "e3cc0b30-7494-4f95-942d-72bf580f2aed",
+                "resourcePath": "sprites\\sprite_living_creature_waddling\\sprite_living_creature_waddling.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
