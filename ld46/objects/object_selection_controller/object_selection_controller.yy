@@ -2,7 +2,7 @@
     "id": "66acaaf7-a65c-4c41-98c4-58cb365d92fd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_title_controller",
+    "name": "object_selection_controller",
     "eventList": [
         {
             "id": "e7469297-dfc9-45dd-ba83-5aac541c2c37",
@@ -41,7 +41,27 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "76a61f54-da7d-40a9-ad0d-ba937683c0ab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "object_start",
+                "object_resume",
+                "object_exit",
+                "object_restart"
+            ],
+            "multiselect": true,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "object_start",
+            "varName": "arr",
+            "varType": 6
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
