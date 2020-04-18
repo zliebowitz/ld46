@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2e4ea65d-45fa-468c-8d2f-6c38932da667",
+            "Value": {
+                "id": "4c454f41-98d3-4a3a-8656-f6f3128f31a8",
+                "resourcePath": "objects\/object_shinobo\/object_shinobo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48b28a29-659b-4bc4-aa10-1252b776267a",
             "Value": {
                 "id": "109b25b8-c38c-485a-a3eb-2226d7689071",
@@ -90,7 +98,7 @@
             "Key": "53caffbb-dc60-49a7-967e-740c89b4e881",
             "Value": {
                 "id": "421622b1-50c6-4d49-898a-b930478bedda",
-                "resourcePath": "views\\53caffbb-dc60-49a7-967e-740c89b4e881.yy",
+                "resourcePath": "views\/53caffbb-dc60-49a7-967e-740c89b4e881.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -98,7 +106,7 @@
             "Key": "587aac06-6772-4c42-97da-e6895012a133",
             "Value": {
                 "id": "4790a53e-5b9f-4363-9228-8ab33d717088",
-                "resourcePath": "sprites\\sprite_living_creature_idle\\sprite_living_creature_idle.yy",
+                "resourcePath": "sprites\/sprite_living_creature_idle\/sprite_living_creature_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -154,7 +162,7 @@
             "Key": "8ed3c27f-e327-439a-8228-c92f27c461d8",
             "Value": {
                 "id": "dd91b4fd-e634-4f46-a9bc-f56be240361f",
-                "resourcePath": "sprites\\sprite_living_creature_dying\\sprite_living_creature_dying.yy",
+                "resourcePath": "sprites\/sprite_living_creature_dying\/sprite_living_creature_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -170,7 +178,7 @@
             "Key": "9c232c1d-54c4-4b43-a428-e3ffaca7cc91",
             "Value": {
                 "id": "b2c44788-7b00-4439-aca3-d5164a7c6f01",
-                "resourcePath": "sprites\\sprite_living_creature_victory\\sprite_living_creature_victory.yy",
+                "resourcePath": "sprites\/sprite_living_creature_victory\/sprite_living_creature_victory.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +210,7 @@
             "Key": "ab1c8b25-d40b-423e-88d6-92ef509a42b1",
             "Value": {
                 "id": "e25ce430-8f1c-476a-adf5-25f23092a8c7",
-                "resourcePath": "objects\\object_living_creature\\object_living_creature.yy",
+                "resourcePath": "objects\/object_living_creature\/object_living_creature.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -250,7 +258,7 @@
             "Key": "c29ad6b7-d411-478e-af7b-9f8b5ce8ff46",
             "Value": {
                 "id": "b828f26d-e055-4698-8c95-2d6df5cfb4b0",
-                "resourcePath": "views\\c29ad6b7-d411-478e-af7b-9f8b5ce8ff46.yy",
+                "resourcePath": "views\/c29ad6b7-d411-478e-af7b-9f8b5ce8ff46.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -258,7 +266,7 @@
             "Key": "c49df7d5-242b-4d10-9017-318fa6d38065",
             "Value": {
                 "id": "e3cc0b30-7494-4f95-942d-72bf580f2aed",
-                "resourcePath": "sprites\\sprite_living_creature_waddling\\sprite_living_creature_waddling.yy",
+                "resourcePath": "sprites\/sprite_living_creature_waddling\/sprite_living_creature_waddling.yy",
                 "resourceType": "GMSprite"
             }
         },
