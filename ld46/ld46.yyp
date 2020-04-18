@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "5202d87d-8e85-45cb-a8cd-9be928f0fd86",
-            "Value": {
-                "id": "d541926b-169a-4028-a2df-4c3abedf6597",
-                "resourcePath": "sprites\/sprite_exit\/sprite_exit.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "53caffbb-dc60-49a7-967e-740c89b4e881",
             "Value": {
                 "id": "421622b1-50c6-4d49-898a-b930478bedda",
@@ -135,14 +127,6 @@
             }
         },
         {
-            "Key": "7c0a14c1-d4b2-4f00-96be-c622c157952c",
-            "Value": {
-                "id": "137b655a-6ad0-4f34-84d2-ad32db11a291",
-                "resourcePath": "views\/7c0a14c1-d4b2-4f00-96be-c622c157952c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "7d68fbc8-1f0d-410f-84d4-358f9dca8b79",
             "Value": {
                 "id": "5dc7c64a-bf21-4054-a2f8-ecade8bac510",
@@ -167,18 +151,19 @@
             }
         },
         {
+            "Key": "8ed3c27f-e327-439a-8228-c92f27c461d8",
+            "Value": {
+                "id": "dd91b4fd-e634-4f46-a9bc-f56be240361f",
+                "resourcePath": "sprites\\sprite_living_creature_dying\\sprite_living_creature_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "933ea83a-76ad-42a7-a998-e936725b4e01",
             "Value": {
                 "id": "c45a8fa4-b94b-4c89-9b24-82daefe7bb0c",
                 "resourcePath": "views\/933ea83a-76ad-42a7-a998-e936725b4e01.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {"Key": "8ed3c27f-e327-439a-8228-c92f27c461d8",
-            "Value": {
-                "id": "dd91b4fd-e634-4f46-a9bc-f56be240361f",
-                "resourcePath": "sprites\\sprite_living_creature_dying\\sprite_living_creature_dying.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -189,7 +174,8 @@
                 "resourceType": "GMSprite"
             }
         },
-        {            "Key": "a101dbce-2339-4c71-9f07-1c0b162c0a74",
+        {
+            "Key": "a101dbce-2339-4c71-9f07-1c0b162c0a74",
             "Value": {
                 "id": "9a14f9f0-5268-465f-a8ad-f90dccecacb0",
                 "resourcePath": "sprites\/sprite_title\/sprite_title.yy",
@@ -261,6 +247,22 @@
             }
         },
         {
+            "Key": "c29ad6b7-d411-478e-af7b-9f8b5ce8ff46",
+            "Value": {
+                "id": "b828f26d-e055-4698-8c95-2d6df5cfb4b0",
+                "resourcePath": "views\\c29ad6b7-d411-478e-af7b-9f8b5ce8ff46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c49df7d5-242b-4d10-9017-318fa6d38065",
+            "Value": {
+                "id": "e3cc0b30-7494-4f95-942d-72bf580f2aed",
+                "resourcePath": "sprites\\sprite_living_creature_waddling\\sprite_living_creature_waddling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4fabf1d-7689-4fe9-850f-1815118fb4cb",
             "Value": {
                 "id": "70692bfa-6113-4efd-a329-09668ba64434",
@@ -276,22 +278,8 @@
                 "resourceType": "GMSprite"
             }
         },
-        {            "Key": "c29ad6b7-d411-478e-af7b-9f8b5ce8ff46",
-            "Value": {
-                "id": "b828f26d-e055-4698-8c95-2d6df5cfb4b0",
-                "resourcePath": "views\\c29ad6b7-d411-478e-af7b-9f8b5ce8ff46.yy",
-                "resourceType": "GMFolder"
-            }
-        },
         {
-            "Key": "c49df7d5-242b-4d10-9017-318fa6d38065",
-            "Value": {
-                "id": "e3cc0b30-7494-4f95-942d-72bf580f2aed",
-                "resourcePath": "sprites\\sprite_living_creature_waddling\\sprite_living_creature_waddling.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "9f2177af-758c-4455-ae88-b2cc66f983fa",
                 "resourcePath": "options\/windows\/options_windows.yy",
