@@ -23,20 +23,19 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "2e4ea65d-45fa-468c-8d2f-6c38932da667"
-        },
-        {
-            "id": "ec540909-fe64-45df-9c19-81b49c963361",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "2e4ea65d-45fa-468c-8d2f-6c38932da667"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "de984869-974e-4de6-8b58-d1e61bb961bb",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
+            "propertyId": "c869d5b6-ba6c-4d40-b84b-141b1d1354c4",
+            "value": "sprite_shinobo_dying"
+        }
+    ],
     "parentObjectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
     "persistent": false,
     "physicsAngularDamping": 0.1,

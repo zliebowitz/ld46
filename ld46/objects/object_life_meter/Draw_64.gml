@@ -15,7 +15,10 @@ if (target == object_spheroid)
 
 
 full_width = 100;
-end_x = full_width * (target.max_hit_count - target.hit_count) / target.max_hit_count + start_x;
+if (instance_exists(target))
+	end_x = full_width * min(target.max_hit_count - target.hit_count, target.max_hit_count) / target.max_hit_count + start_x;
+else
+	end_x = start_x;
 
 start_y = 10;
 height = 24;

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (!instance_exists(object_shinobo))
+	exit;
 
 if (hit_count < max_hit_count)
 {

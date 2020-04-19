@@ -50,7 +50,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "eae31056-1365-4afb-bf0e-c1b85c64b7c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sprite_shinobo_dying",
+            "varName": "variable_name",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "e1229871-4d94-45e0-8c0a-9b448a658b60",
     "visible": true
