@@ -7,3 +7,4 @@ max_x_velocity = 4.0;
 x_velocity = 0.0;
 x_position = x;
 max_dx = 32;
+death_music_played = false;

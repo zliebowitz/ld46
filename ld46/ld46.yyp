@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0a37cb98-c9a5-4923-996c-ae6b19f9c3f9",
+            "Value": {
+                "id": "d4e836ad-3bdb-46ac-8e66-9bbb9dbf1abb",
+                "resourcePath": "sounds\\sound_death_music\\sound_death_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1129f91c-f290-4804-a239-51671a323e7f",
             "Value": {
                 "id": "ef24bcc7-fa57-4f04-a678-0f293c4b1b00",

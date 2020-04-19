@@ -27,7 +27,13 @@ if (hit_count < max_hit_count)
 	
 	x = floor(x_position);
 }
-else if (hit_count == max_hit_count && sprite_index != sprite_living_creature_dying)
+else if (hit_count == max_hit_count)
 {
-	sprite_index = sprite_living_creature_dying;
+	if (!death_music_played)
+	{
+		audio_stop_sound(object_music_player.sound);
+		audio_play_sound(sound_death_music, 10, false);
+		death_music_played = true;
+		alarm[0] = 10 * room_speed;
+	}
 }
