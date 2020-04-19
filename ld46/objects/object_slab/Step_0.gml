@@ -7,6 +7,25 @@ if (!instance_exists(object_shinobo))
 	exit;
 }
 
+if (!horizontal)
+{
+	dx = 0;
+	if (dy == 0)
+	{
+		// just swapped from horizontal
+		dy = 4;
+	}
+	else if (y + sprite_width / 2 > object_ground.y)
+	{
+		dy = -4;
+	}
+	else if (y <= top)
+	{
+		horizontal = true;
+	}
+	
+}
+
 if (horizontal)
 {
 	y = top;
@@ -18,11 +37,6 @@ if (horizontal)
 	{
 		horizontal = false;
 	}
-}
-else
-{
-	y = top + sprite_width / 2;
-	dy = 0;
 }
 
 if (place_meeting(x, y, object_shinobo))
@@ -48,6 +62,7 @@ if (place_meeting(x, y, object_living_creature))
 
 x += dx;
 y += dy;
+y = max(y, top);
 
 
 if (place_meeting(x, y, object_shinobo))

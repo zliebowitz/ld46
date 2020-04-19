@@ -23,7 +23,7 @@ arr[idx].selected = true;
 if keyboard_check_pressed(vk_enter)
 {
 		if arr[idx] = object_start
-			room_goto(room_boss_fight);
+			room_goto(room_boss_fight_2);
 		else if arr[idx] = object_exit
 			game_end();
 		else if arr[idx] = object_pause_no
