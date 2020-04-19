@@ -15,6 +15,7 @@ if keyboard_check_pressed(vk_right)
 {
 	idx += 1;
 	idx %= array_length_1d(arr);
+	audio_play_sound(sound_title_select_fx, 10, false);
 }
 
 arr[idx].selected = true;
