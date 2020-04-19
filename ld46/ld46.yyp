@@ -178,7 +178,7 @@
             "Key": "769dc830-5cea-45df-b061-07b3dc92fc08",
             "Value": {
                 "id": "8db36457-e489-49e5-b437-c2a48b8cdf00",
-                "resourcePath": "objects\/object_restart\/object_restart.yy",
+                "resourcePath": "objects\\object_pause_no\\object_pause_no.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -338,7 +338,7 @@
             "Key": "c4fabf1d-7689-4fe9-850f-1815118fb4cb",
             "Value": {
                 "id": "70692bfa-6113-4efd-a329-09668ba64434",
-                "resourcePath": "objects\/object_resume\/object_resume.yy",
+                "resourcePath": "objects\\object_pause_yes\\object_pause_yes.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -24,8 +24,8 @@ if keyboard_check_pressed(vk_enter)
 			room_goto(room_boss_fight);
 		else if arr[idx] = object_exit
 			game_end();
-		else if arr[idx] = object_resume
+		else if arr[idx] = object_pause_no
 			room_goto(room_boss_fight)
-		else if arr[idx] = object_restart
+		else if arr[idx] = object_pause_yes
 			room_goto(room_title);
 }

@@ -2,7 +2,7 @@
     "id": "769dc830-5cea-45df-b061-07b3dc92fc08",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_restart",
+    "name": "object_pause_no",
     "eventList": [
         
     ],

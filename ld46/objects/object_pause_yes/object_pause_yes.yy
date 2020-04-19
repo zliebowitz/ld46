@@ -2,7 +2,7 @@
     "id": "c4fabf1d-7689-4fe9-850f-1815118fb4cb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_resume",
+    "name": "object_pause_yes",
     "eventList": [
         
     ],

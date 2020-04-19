@@ -48,9 +48,9 @@
             "mvc": "1.0",
             "listItems": [
                 "object_start",
-                "object_resume",
+                "object_pause_no",
                 "object_exit",
-                "object_restart"
+                "object_pause_yes"
             ],
             "multiselect": true,
             "rangeEnabled": false,
