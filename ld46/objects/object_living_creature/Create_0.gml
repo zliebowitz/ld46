@@ -14,3 +14,4 @@ x_acceleration = 0.1;
 max_x_velocity = 4.0;
 x_velocity = 0.0;
 x_position = x;
+max_dx = 32;

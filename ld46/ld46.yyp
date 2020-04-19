@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "11ce59e0-bcfc-4242-8552-5379996d3a8f",
+            "Value": {
+                "id": "4fa4c410-8c1f-453b-ba3a-70bfc71e4ee3",
+                "resourcePath": "sounds\\sound_landing_fx\\sound_landing_fx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "12fa0984-20b0-4228-8f9b-ca01cfd3a88a",
             "Value": {
                 "id": "ba664d6a-ee4b-4266-bc12-68e28b5bc2ab",
@@ -60,6 +68,14 @@
                 "id": "5614e80c-d94c-445a-ac41-b29213b1052a",
                 "resourcePath": "rooms\/room_pause\/room_pause.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1a726a6a-c19c-41ff-90b9-05ee8b1bcade",
+            "Value": {
+                "id": "e56c21bb-da82-449a-8750-49b16b743204",
+                "resourcePath": "scripts\\script_delete_last_previous_position\\script_delete_last_previous_position.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -164,6 +180,14 @@
                 "id": "dbfcef2e-7218-48b4-9230-f644ca561e76",
                 "resourcePath": "sprites\/sprite_shinobo_dashing\/sprite_shinobo_dashing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73137b8b-d77e-4bca-a8df-13570c4fdadf",
+            "Value": {
+                "id": "e0b2ec03-f495-4f65-b7b9-87c261fc3be7",
+                "resourcePath": "scripts\\script_add_previous_position\\script_add_previous_position.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -308,6 +332,14 @@
                 "id": "d785279b-c877-4a2b-bc11-a35a91a36056",
                 "resourcePath": "views\/bc8fbec1-171d-4610-8a97-5311ccccd189.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bdc09063-0cfb-45af-a930-977b4829d01d",
+            "Value": {
+                "id": "ac7c47a6-4d63-4be7-b2b0-d2528b0b263a",
+                "resourcePath": "sounds\\sound_jumping_fx\\sound_jumping_fx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -488,7 +520,8 @@
         }
     ],
     "script_order": [
-        
+        "73137b8b-d77e-4bca-a8df-13570c4fdadf",
+        "1a726a6a-c19c-41ff-90b9-05ee8b1bcade"
     ],
     "tutorial": ""
 }
