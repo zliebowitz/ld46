@@ -9,7 +9,8 @@
         "7d62aab7-6762-44c1-bb88-13ed05615103",
         "e054255c-a770-409e-bff5-1e088ae750e4",
         "cff21e4c-0a84-4b12-97d2-f2eb3cb4dbaf",
-        "6f435fb6-0042-46b9-ada0-79149d8c3e91"
+        "6f435fb6-0042-46b9-ada0-79149d8c3e91",
+        "5fbd1198-5b4c-4729-b109-edbed3331677"
     ],
     "filterType": "GMSprite",
     "folderName": "shinobo",

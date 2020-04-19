@@ -6,7 +6,7 @@ if (hit_count < max_hit_count)
 }
 else if (hit_count == max_hit_count && sprite_index != sprite_living_creature_dying)
 {
-	sprite_index = sprite_living_creature_dying;
+	sprite_index = sprite_shinobo_dying;
 }
 
 x_acceleration = 0;

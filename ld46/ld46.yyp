@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "5fbd1198-5b4c-4729-b109-edbed3331677",
+            "Value": {
+                "id": "39a95a84-e2e5-49c8-a8e7-defe5743623f",
+                "resourcePath": "sprites\\sprite_shinobo_dying\\sprite_shinobo_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66acaaf7-a65c-4c41-98c4-58cb365d92fd",
             "Value": {
                 "id": "a748f875-a970-47a1-b7b6-e4be4c1ef347",

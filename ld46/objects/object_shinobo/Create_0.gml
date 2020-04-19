@@ -16,7 +16,7 @@ x_position = x;
 
 jumps = 0;
 initial_jump_velocity = -3;
-max_y_velocity = 4.0;
 y_acceleration = .3;
-y_velocity = 8;
+max_y_velocity = 4.0;
+y_velocity = max_y_velocity;
 y_position = y;
