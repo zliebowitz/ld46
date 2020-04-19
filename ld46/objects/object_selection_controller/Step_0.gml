@@ -21,11 +21,11 @@ arr[idx].selected = true;
 if keyboard_check_pressed(vk_enter)
 {
 		if arr[idx] = object_start
-			room_goto(room_pause);
+			room_goto(room_boss_fight);
 		else if arr[idx] = object_exit
 			game_end();
 		else if arr[idx] = object_resume
-			{}
+			room_goto(room_boss_fight)
 		else if arr[idx] = object_restart
 			room_goto(room_title);
 }

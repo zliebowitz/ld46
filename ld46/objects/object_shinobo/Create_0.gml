@@ -7,8 +7,8 @@ global.dead_zone_y = -100;
 max_hit_count = 16;
 hit_count = 0;
 last_hit_count = 0;
-flash_count = 0;
-max_flash_count = 60;
+max_flash_count = 0;
+flash_count = max_flash_count;
 
 max_x_velocity = 4.0;
 x_velocity = 0.0;
