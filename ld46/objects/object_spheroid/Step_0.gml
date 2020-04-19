@@ -30,8 +30,8 @@ else
 		dx = dest_x - position_x;
 		dy = dest_y - position_y;
 		len = sqrt(dx * dx + dy * dy);
-		dx *= 4 / len;
-		dy *= 4 /len;
+		dx *= 7 / len;
+		dy *= 7 /len;
 	}
 }
 
