@@ -44,6 +44,14 @@
             "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
             "propertyId": "c869d5b6-ba6c-4d40-b84b-141b1d1354c4",
             "value": "sprite_living_creature_dying"
+        },
+        {
+            "id": "701700a9-22b0-4a5b-9aeb-c932df90bc87",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
+            "propertyId": "0e831879-1d8c-4bee-a564-a59284bc4728",
+            "value": "5"
         }
     ],
     "parentObjectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
