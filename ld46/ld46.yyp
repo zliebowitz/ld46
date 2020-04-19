@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01ae4c9e-9b08-43bc-af5e-7a23261ff691",
+            "Value": {
+                "id": "71227bb7-52fe-4dcc-9d17-267c696cb067",
+                "resourcePath": "objects\\object_boss_music_loop\\object_boss_music_loop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1129f91c-f290-4804-a239-51671a323e7f",
             "Value": {
                 "id": "ef24bcc7-fa57-4f04-a678-0f293c4b1b00",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "a446f644-8722-40b6-93b3-071e25d94475",
                 "resourcePath": "views\/234f0e84-c8ed-4204-a112-b97828650734.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2b924435-8c33-4941-8ac3-eac127b829dc",
+            "Value": {
+                "id": "6adba990-66fc-42de-903a-f043d094c731",
+                "resourcePath": "views\\2b924435-8c33-4941-8ac3-eac127b829dc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "b9b9c626-f69d-4ffd-b992-37d0a52819a6",
+            "Value": {
+                "id": "0499532b-7feb-464c-8ec6-7bb9661c0e67",
+                "resourcePath": "objects\\object_music_player\\object_music_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc8fbec1-171d-4610-8a97-5311ccccd189",
             "Value": {
                 "id": "d785279b-c877-4a2b-bc11-a35a91a36056",
@@ -484,6 +508,14 @@
                 "id": "9e1f145f-2769-4023-bcf5-faa4bb0609ef",
                 "resourcePath": "objects\/object_ground\/object_ground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2e54531-6a5f-48f7-90a7-b10d4ed8a6f1",
+            "Value": {
+                "id": "f200f893-5d89-4334-9b16-577851d940e4",
+                "resourcePath": "sounds\\sound_boss_music\\sound_boss_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
