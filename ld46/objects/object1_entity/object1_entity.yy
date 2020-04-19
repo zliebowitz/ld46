@@ -82,7 +82,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "16",
             "varName": "max_hit_count",
             "varType": 1
         },
@@ -96,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "60",
             "varName": "max_flash_count",
             "varType": 1
         },
