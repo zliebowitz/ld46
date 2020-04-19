@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "173ee70c-90c5-4f67-80d8-4eac4850774c",
-            "Value": {
-                "id": "5614e80c-d94c-445a-ac41-b29213b1052a",
-                "resourcePath": "rooms\/room_pause\/room_pause.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "1a726a6a-c19c-41ff-90b9-05ee8b1bcade",
             "Value": {
                 "id": "e56c21bb-da82-449a-8750-49b16b743204",
