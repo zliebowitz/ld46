@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "173ee70c-90c5-4f67-80d8-4eac4850774c",
-            "Value": {
-                "id": "5614e80c-d94c-445a-ac41-b29213b1052a",
-                "resourcePath": "rooms\/room_pause\/room_pause.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "1a726a6a-c19c-41ff-90b9-05ee8b1bcade",
             "Value": {
                 "id": "e56c21bb-da82-449a-8750-49b16b743204",
@@ -148,14 +140,6 @@
                 "id": "8d256869-760c-440b-8782-d943529854ff",
                 "resourcePath": "rooms\/room_boss_fight_2\/room_boss_fight_2.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "48b28a29-659b-4bc4-aa10-1252b776267a",
-            "Value": {
-                "id": "109b25b8-c38c-485a-a3eb-2226d7689071",
-                "resourcePath": "views\/48b28a29-659b-4bc4-aa10-1252b776267a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -460,6 +444,14 @@
                 "id": "d33fd013-d4fd-4ec3-9fbf-026350faa9f3",
                 "resourcePath": "sprites\/sprite_pause_yes\/sprite_pause_yes.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca91e172-7d4e-4a51-8614-27c9c259efe1",
+            "Value": {
+                "id": "85a63c4b-6404-4851-8d71-d8003d959c36",
+                "resourcePath": "views\/ca91e172-7d4e-4a51-8614-27c9c259efe1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
