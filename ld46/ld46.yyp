@@ -34,7 +34,7 @@
             "Key": "01ae4c9e-9b08-43bc-af5e-7a23261ff691",
             "Value": {
                 "id": "71227bb7-52fe-4dcc-9d17-267c696cb067",
-                "resourcePath": "objects\\object_boss_music_loop\\object_boss_music_loop.yy",
+                "resourcePath": "objects\/object_boss_music_loop\/object_boss_music_loop.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -42,7 +42,7 @@
             "Key": "0a37cb98-c9a5-4923-996c-ae6b19f9c3f9",
             "Value": {
                 "id": "d4e836ad-3bdb-46ac-8e66-9bbb9dbf1abb",
-                "resourcePath": "sounds\\sound_death_music\\sound_death_music.yy",
+                "resourcePath": "sounds\/sound_death_music\/sound_death_music.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -122,7 +122,7 @@
             "Key": "2b924435-8c33-4941-8ac3-eac127b829dc",
             "Value": {
                 "id": "6adba990-66fc-42de-903a-f043d094c731",
-                "resourcePath": "views\\2b924435-8c33-4941-8ac3-eac127b829dc.yy",
+                "resourcePath": "views\/2b924435-8c33-4941-8ac3-eac127b829dc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -140,6 +140,14 @@
                 "id": "4c454f41-98d3-4a3a-8656-f6f3128f31a8",
                 "resourcePath": "objects\/object_shinobo\/object_shinobo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "461614b4-c0fa-40a3-ade3-b29201c14cd5",
+            "Value": {
+                "id": "8d256869-760c-440b-8782-d943529854ff",
+                "resourcePath": "rooms\/room_boss_fight_2\/room_boss_fight_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -187,6 +195,14 @@
             "Value": {
                 "id": "60324833-94a3-4d5e-99b1-be84b3563da7",
                 "resourcePath": "objects\/object_spheroid\/object_spheroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5cbd9f1f-ea2d-4d93-8641-face351ad7b4",
+            "Value": {
+                "id": "5b5d9763-7c56-45ea-8ffd-ad1955d763fb",
+                "resourcePath": "objects\/object_slab\/object_slab.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -282,7 +298,7 @@
             "Key": "8dfaa293-9ae3-47f8-bad3-ca3075126391",
             "Value": {
                 "id": "341924a3-ca7b-4970-9627-3648d9a6f8da",
-                "resourcePath": "sprites\\sprite_smash_guy\\sprite_smash_guy.yy",
+                "resourcePath": "sprites\/sprite_smash_guy\/sprite_smash_guy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -378,7 +394,7 @@
             "Key": "b9b9c626-f69d-4ffd-b992-37d0a52819a6",
             "Value": {
                 "id": "0499532b-7feb-464c-8ec6-7bb9661c0e67",
-                "resourcePath": "objects\\object_music_player\\object_music_player.yy",
+                "resourcePath": "objects\/object_music_player\/object_music_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -530,7 +546,7 @@
             "Key": "e2e54531-6a5f-48f7-90a7-b10d4ed8a6f1",
             "Value": {
                 "id": "f200f893-5d89-4334-9b16-577851d940e4",
-                "resourcePath": "sounds\\sound_boss_music\\sound_boss_music.yy",
+                "resourcePath": "sounds\/sound_boss_music\/sound_boss_music.yy",
                 "resourceType": "GMSound"
             }
         },

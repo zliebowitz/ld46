@@ -39,7 +39,8 @@
             "listItems": [
                 "object_shinobo",
                 "object_living_creature",
-                "object_spheroid"
+                "object_spheroid",
+                "object_slab"
             ],
             "multiselect": false,
             "rangeEnabled": false,
