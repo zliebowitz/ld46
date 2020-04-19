@@ -42,7 +42,7 @@
             "Key": "11ce59e0-bcfc-4242-8552-5379996d3a8f",
             "Value": {
                 "id": "4fa4c410-8c1f-453b-ba3a-70bfc71e4ee3",
-                "resourcePath": "sounds\\sound_landing_fx\\sound_landing_fx.yy",
+                "resourcePath": "sounds\/sound_landing_fx\/sound_landing_fx.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "1a726a6a-c19c-41ff-90b9-05ee8b1bcade",
             "Value": {
                 "id": "e56c21bb-da82-449a-8750-49b16b743204",
-                "resourcePath": "scripts\\script_delete_last_previous_position\\script_delete_last_previous_position.yy",
+                "resourcePath": "scripts\/script_delete_last_previous_position\/script_delete_last_previous_position.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -162,7 +162,7 @@
             "Key": "5fbd1198-5b4c-4729-b109-edbed3331677",
             "Value": {
                 "id": "39a95a84-e2e5-49c8-a8e7-defe5743623f",
-                "resourcePath": "sprites\\sprite_shinobo_dying\\sprite_shinobo_dying.yy",
+                "resourcePath": "sprites\/sprite_shinobo_dying\/sprite_shinobo_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "73137b8b-d77e-4bca-a8df-13570c4fdadf",
             "Value": {
                 "id": "e0b2ec03-f495-4f65-b7b9-87c261fc3be7",
-                "resourcePath": "scripts\\script_add_previous_position\\script_add_previous_position.yy",
+                "resourcePath": "scripts\/script_add_previous_position\/script_add_previous_position.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -210,7 +210,7 @@
             "Key": "769dc830-5cea-45df-b061-07b3dc92fc08",
             "Value": {
                 "id": "8db36457-e489-49e5-b437-c2a48b8cdf00",
-                "resourcePath": "objects\\object_pause_no\\object_pause_no.yy",
+                "resourcePath": "objects\/object_pause_no\/object_pause_no.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -338,7 +338,7 @@
             "Key": "bdc09063-0cfb-45af-a930-977b4829d01d",
             "Value": {
                 "id": "ac7c47a6-4d63-4be7-b2b0-d2528b0b263a",
-                "resourcePath": "sounds\\sound_jumping_fx\\sound_jumping_fx.yy",
+                "resourcePath": "sounds\/sound_jumping_fx\/sound_jumping_fx.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -378,7 +378,7 @@
             "Key": "c4fabf1d-7689-4fe9-850f-1815118fb4cb",
             "Value": {
                 "id": "70692bfa-6113-4efd-a329-09668ba64434",
-                "resourcePath": "objects\\object_pause_yes\\object_pause_yes.yy",
+                "resourcePath": "objects\/object_pause_yes\/object_pause_yes.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -403,14 +403,6 @@
             "Value": {
                 "id": "b62e5b1a-0eea-4f3f-a720-0349a270a341",
                 "resourcePath": "sprites\/sprite_shinobo_attacking\/sprite_shinobo_attacking.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d2032ba7-deae-422d-9385-96519984b94b",
-            "Value": {
-                "id": "d0a97d14-2c7a-41e7-850c-ed878e6e6c90",
-                "resourcePath": "sprites\/sprite_life_meter\/sprite_life_meter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -490,7 +482,7 @@
             "Key": "e99c801f-f3cb-4d25-97c4-03ecd7fd5c3e",
             "Value": {
                 "id": "03278d67-64fe-49d3-b0a3-e5da39c39d77",
-                "resourcePath": "sounds\\sound_title_select_fx\\sound_title_select_fx.yy",
+                "resourcePath": "sounds\/sound_title_select_fx\/sound_title_select_fx.yy",
                 "resourceType": "GMSound"
             }
         },
