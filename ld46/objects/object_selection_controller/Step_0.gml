@@ -8,6 +8,7 @@ if keyboard_check_pressed(vk_left)
 	// somehow I don't want to find out what weird things game maker does with modulo of negatives
 	idx += array_length_1d(arr) - 1;
 	idx %= array_length_1d(arr);
+	audio_play_sound(sound_title_select_fx, 10, false);
 }
 
 if keyboard_check_pressed(vk_right)

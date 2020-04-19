@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "e99c801f-f3cb-4d25-97c4-03ecd7fd5c3e",
+            "Value": {
+                "id": "03278d67-64fe-49d3-b0a3-e5da39c39d77",
+                "resourcePath": "sounds\\sound_title_select_fx\\sound_title_select_fx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f2cf67da-f03f-426b-9c83-b165720ca456",
             "Value": {
                 "id": "d3d1ab45-cfa0-476f-8954-3eacf6405828",
