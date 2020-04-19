@@ -38,7 +38,8 @@
             "mvc": "1.0",
             "listItems": [
                 "object_shinobo",
-                "object_living_creature"
+                "object_living_creature",
+                "object_spheroid"
             ],
             "multiselect": false,
             "rangeEnabled": false,

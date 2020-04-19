@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "5a1e012c-68dd-4904-a56e-a78071e75a89",
+            "Value": {
+                "id": "60324833-94a3-4d5e-99b1-be84b3563da7",
+                "resourcePath": "objects\/object_spheroid\/object_spheroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5fbd1198-5b4c-4729-b109-edbed3331677",
             "Value": {
                 "id": "39a95a84-e2e5-49c8-a8e7-defe5743623f",
@@ -451,6 +459,14 @@
             "Value": {
                 "id": "2aaa6fd5-fd95-4281-8a7e-e071bbcbd30c",
                 "resourcePath": "sprites\/sprite__ground\/sprite__ground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1229871-4d94-45e0-8c0a-9b448a658b60",
+            "Value": {
+                "id": "f66c8d51-6a9f-42bf-82df-936e9c2062e5",
+                "resourcePath": "sprites\/sprite_spheroid\/sprite_spheroid.yy",
                 "resourceType": "GMSprite"
             }
         },

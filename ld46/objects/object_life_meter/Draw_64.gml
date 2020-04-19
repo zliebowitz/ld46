@@ -2,10 +2,17 @@
 // You can write your code in this editor
 
 start_x = 10;
+
 if (target == object_living_creature)
 {
 	start_x = 200;
 }
+
+if (target == object_spheroid)
+{
+	start_x = 400;
+}
+
 
 full_width = 100;
 end_x = full_width * (target.max_hit_count - target.hit_count) / target.max_hit_count + start_x;
