@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-max_dash_count = 30;
+max_dash_count = 45;
 dash_count = 0;
 
 x_acceleration = 0.2;

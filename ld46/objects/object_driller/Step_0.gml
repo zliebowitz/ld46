@@ -26,7 +26,6 @@ if (go_to_center)
 	if (abs(diff_x) < 2)
 	{
 		go_to_center = false;
-		dir = sign(object_shinobo.x - x);
 		shake_count = 0;
 	}
 }
@@ -40,6 +39,7 @@ if (!go_to_center)
 		else
 			dx = -2;
 		shake_count++;
+		dir = sign(object_shinobo.x - x);
 	}
 	if (shake_count == max_shake_count)
 	{

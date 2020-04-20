@@ -7,7 +7,7 @@ normal_speed = 6;
 
 center = object_ground.x;
 
-max_shake_count = 15;
+max_shake_count = 60;
 shake_count = max_shake_count;
 
 victory_played = false;
