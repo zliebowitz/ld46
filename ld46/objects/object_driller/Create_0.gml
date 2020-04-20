@@ -10,4 +10,4 @@ center = object_ground.x;
 max_shake_count = 15;
 shake_count = max_shake_count;
 
-
+victory_played = false;

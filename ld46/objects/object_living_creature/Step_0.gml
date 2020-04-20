@@ -35,7 +35,7 @@ if (hit_count < max_hit_count)
 }
 else if (hit_count == max_hit_count)
 {
-	if (!death_music_played)
+	if (!death_music_played && object_shinobo.sprite_index != sprite_shinobo_dying)
 	{
 		audio_stop_sound(object_music_player.sound);
 		audio_play_sound(sound_death_music, 10, false);

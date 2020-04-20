@@ -13,3 +13,5 @@ max_float_speed = 3;
 min_wait_time = 2 * fps;
 max_wait_time = 4 * fps;
 was_hit = false;
+
+victory_played = false;

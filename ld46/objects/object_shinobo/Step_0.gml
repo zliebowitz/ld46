@@ -149,7 +149,10 @@ if (hit_count < max_hit_count)
 		attack_count = min(attack_count + 1, max_attack_count);
 	}
 }
-else if (hit_count == max_hit_count && sprite_index != sprite_living_creature_dying)
+else if (hit_count == max_hit_count)
 {
-	sprite_index = sprite_shinobo_dying;
+	if (object_music_player.sound != sound_death_music)
+	{
+		audio_stop_sound(object_music_player.sound);
+	}
 }

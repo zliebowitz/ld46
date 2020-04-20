@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3255dea3-990f-4882-86c5-c7444291a690",
+            "Value": {
+                "id": "2556b754-c4fc-489e-859c-c2949a074a84",
+                "resourcePath": "sprites\\sprite_saw_guy\\sprite_saw_guy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "461614b4-c0fa-40a3-ade3-b29201c14cd5",
             "Value": {
                 "id": "8d256869-760c-440b-8782-d943529854ff",
@@ -564,6 +572,14 @@
                 "id": "b62e5b1a-0eea-4f3f-a720-0349a270a341",
                 "resourcePath": "sprites\/sprite_shinobo_attacking\/sprite_shinobo_attacking.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d33b9ed0-6879-47b8-a2ff-ce562db566e7",
+            "Value": {
+                "id": "95606bfa-7a4d-41da-ae85-9c358023082e",
+                "resourcePath": "sounds\\sound_victory_fx\\sound_victory_fx.yy",
+                "resourceType": "GMSound"
             }
         },
         {

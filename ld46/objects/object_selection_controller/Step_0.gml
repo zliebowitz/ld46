@@ -23,11 +23,35 @@ arr[idx].selected = true;
 if keyboard_check_pressed(vk_enter)
 {
 		if arr[idx] = object_start
-			room_goto_next();
+			fade_count = 0;
 		else if arr[idx] = object_exit
 			game_end();
 		else if arr[idx] = object_pause_no
 			room_goto(room_boss_fight)
 		else if arr[idx] = object_pause_yes
 			room_goto(room_title);
+}
+
+// fade out for the title screen
+if (fade_count < max_fade_count)
+{
+	if (fade_count == 0)
+	{
+		audio_play_sound(sound_victory_fx, 10, false);
+	}
+	
+	fade_count++;
+	object_start.image_index = 0;
+	object_start.image_speed = 0;
+	
+	var alpha = fade_count / max_fade_count;
+	var layer_id = layer_get_id("Fade_Layer");
+	var background_id = layer_background_get_id(layer_id);
+	layer_background_alpha(background_id, alpha);
+	fade_count++;
+	
+	if (fade_count == max_fade_count)
+	{
+		room_goto_next();
+	}
 }

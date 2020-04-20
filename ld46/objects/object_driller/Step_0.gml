@@ -8,7 +8,14 @@
 if (sprite_index == death_sprite)
 {
 	if object_living_creature.sprite_index != sprite_living_creature_dying
-		object_living_creature.sprite_index = sprite_living_creature_victory
+	{
+		object_living_creature.sprite_index = sprite_living_creature_victory;
+		if (!victory_played)
+		{
+			audio_play_sound(sound_victory_fx, 10, false);
+			victory_played = true;
+		}
+	}
 	exit;
 }
 

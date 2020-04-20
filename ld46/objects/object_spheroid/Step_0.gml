@@ -4,7 +4,14 @@
 if (sprite_index == death_sprite)
 {
 	if object_living_creature.sprite_index != sprite_living_creature_dying
+	{
 		object_living_creature.sprite_index = sprite_living_creature_victory
+		if (!victory_played)
+		{
+			audio_play_sound(sound_victory_fx, 10, false);
+			victory_played = true;
+		}
+	}
 	exit;
 }
 
@@ -25,7 +32,7 @@ if (!floating)
 		{
 			pace = 1.5 * pace;
 		}
-		dx = pace * sign(object_shinobo.x - position_x) * cos(angle)
+		dx = pace * sign(object_living_creature.x - position_x) * cos(angle)
 		dy = pace * sin(angle);
 		if (dy > 0)
 		{
@@ -42,7 +49,7 @@ else
 	if (wait_time <= 0)
 	{
 		floating = false;
-		dest_x = object_shinobo.x;
+		dest_x = object_living_creature.x;
 		dest_y = object_ground.y;
 	}
 }
