@@ -39,11 +39,12 @@ if (!go_to_center)
 			dx = 2;
 		else
 			dx = -2;
+		shake_count++;
 	}
-	if (shake_count = max_shake_count && dy = 0)
+	if (shake_count == max_shake_count)
 	{
 		// just swapped from horizontal
-		dx = normal_speed ^ dir;
+		dx = normal_speed * dir;
 	}
 	if (x + dx < 0 || x + dx > room_width)
 	{

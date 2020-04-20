@@ -8,7 +8,7 @@ if (target == object_living_creature)
 	start_x = 200;
 }
 
-if (target == object_spheroid || target == object_slab)
+if (target == object_spheroid || target == object_slab || target == object_driller)
 {
 	start_x = 400;
 }
