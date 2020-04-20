@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "4b578869-2d33-4b4a-8e69-71aff2437c90",
+            "Value": {
+                "id": "f65803fa-324b-41a1-a087-f7764a5cfb02",
+                "resourcePath": "rooms\/room_boss_fight_3\/room_boss_fight_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "55e9391e-ac0f-4b28-950a-c8d1b09113a8",
             "Value": {
                 "id": "85ef458f-8178-4d74-b888-f403f4d292bb",
@@ -275,6 +283,14 @@
             "Value": {
                 "id": "5dc7c64a-bf21-4054-a2f8-ecade8bac510",
                 "resourcePath": "objects\/object_title\/object_title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82127700-9b4c-401b-81eb-a6bf6fc43854",
+            "Value": {
+                "id": "b85e8bbf-0736-4662-aa57-f3e4bdd4eb57",
+                "resourcePath": "objects\/object_driller\/object_driller.yy",
                 "resourceType": "GMObject"
             }
         },

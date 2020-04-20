@@ -40,7 +40,8 @@
                 "object_shinobo",
                 "object_living_creature",
                 "object_spheroid",
-                "object_slab"
+                "object_slab",
+                "object_driller"
             ],
             "multiselect": false,
             "rangeEnabled": false,

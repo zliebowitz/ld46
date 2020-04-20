@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+/// @description Insert description here
+// You can write your code in this editor
+
 if (sprite_index == death_sprite)
 {
 	if object_living_creature.sprite_index != sprite_living_creature_dying
@@ -8,15 +12,20 @@ if (sprite_index == death_sprite)
 	exit;
 }
 
-if (!instance_exists(object_shinobo))
+if (go_to_center)
 {
-	y = top;
-	exit;
+	diff_x = center - x;
+	dx = sign(diff_x) * min(normal_speed, abs(diff_x));
+	if (abs(diff_x) < 2)
+	{
+		go_to_center = false;
+		dir = sign(object_shinobo.x - x);
+		shake_count = 0;
+	}
 }
 
-if (!horizontal)
+if (!go_to_center)
 {
-	dx = 0;
 	if (shake_count < max_shake_count)
 	{
 		if (shake_count % 4 == 0 || shake_count % 4 ==3)
@@ -27,45 +36,15 @@ if (!horizontal)
 	if (shake_count = max_shake_count && dy = 0)
 	{
 		// just swapped from horizontal
-		dy = 4;
+		dx = normal_speed ^ dir;
 	}
-	else if (y + sprite_width / 2 > object_ground.y)
+	if (x + dx < 0 || x + dx > room_width)
 	{
-		dy = -4;
-	}
-	else if (y <= top)
-	{
-		horizontal = true;
+		go_to_center = true;
 	}
 	
 }
 
-if (horizontal)
-{
-	y = top;
-	diff_x = object_shinobo.x - x;
-	dist = min(abs(diff_x), max_horizontal_speed);
-	dx = sign(diff_x) * dist;
-	dy = 0;
-	if (abs(x - object_shinobo.x) < 2)
-	{
-		shake_count = 0;
-		horizontal = false;
-	}
-}
-
-if (place_meeting(x, y, object_shinobo))
-{
-	if (object_shinobo.sprite_index == sprite_shinobo_attacking)
-	{
-		if flash_count == max_flash_count
-			hit_count++;
-	}
-	else if (object_shinobo.sprite_index != sprite_shinobo_dying && object_shinobo.flash_count == object_shinobo.max_flash_count)
-	{
-		object_shinobo.hit_count++;
-	}
-}
 
 if (place_meeting(x, y, object_living_creature))
 {
@@ -76,8 +55,6 @@ if (place_meeting(x, y, object_living_creature))
 }
 
 x += dx;
-y += dy;
-y = max(y, top);
 
 
 if (place_meeting(x, y, object_shinobo))
