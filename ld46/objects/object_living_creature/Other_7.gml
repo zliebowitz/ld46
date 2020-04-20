@@ -3,5 +3,10 @@
 event_inherited();
 if (sprite_index == sprite_living_creature_victory)
 {
-	room_goto_next();
+	if (jump_count == 4)
+	{
+		room_goto_next();
+	}
+	
+	jump_count++;
 }

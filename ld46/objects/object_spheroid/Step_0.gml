@@ -51,7 +51,12 @@ if (!floating)
 {
 		dx = dest_x - position_x;
 		dy = dest_y - position_y;
-		len = sqrt(dx * dx + dy * dy);
+		len = dx * dx + dy * dy;
+		if (len < 0.5) // to prevent sqrt from crashing (yes, it can happen apparently)
+		{
+			len = 0.5;
+		}
+		len = sqrt(len);
 		dx *= attack_speed / len;
 		dy *= attack_speed / len;
 		
