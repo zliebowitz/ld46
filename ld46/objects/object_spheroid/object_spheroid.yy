@@ -61,7 +61,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "sprite_shinobo_dying",
+            "value": "sprite_blank",
             "varName": "variable_name",
             "varType": 5
         }
