@@ -34,6 +34,14 @@
             "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
             "propertyId": "0e831879-1d8c-4bee-a564-a59284bc4728",
             "value": "25"
+        },
+        {
+            "id": "e1fe16f3-44fc-4945-be9b-2133fdc726ff",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
+            "propertyId": "c869d5b6-ba6c-4d40-b84b-141b1d1354c4",
+            "value": "sprite_blank"
         }
     ],
     "parentObjectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
@@ -51,20 +59,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "eae31056-1365-4afb-bf0e-c1b85c64b7c5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "sprite_blank",
-            "varName": "variable_name",
-            "varType": 5
-        }
+        
     ],
     "solid": false,
     "spriteId": "e1229871-4d94-45e0-8c0a-9b448a658b60",
