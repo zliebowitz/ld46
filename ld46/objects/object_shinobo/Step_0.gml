@@ -4,7 +4,7 @@
 if (hit_count < max_hit_count)
 {
 	// handle dashing
-	if (keyboard_check(vk_space) && dash_count < max_dash_count)
+	if (keyboard_check(vk_space) && can_dash && dash_count < max_dash_count)
 	{
 		script_add_previous_position(x_position, y_position, image_xscale);
 		
@@ -54,7 +54,7 @@ if (hit_count < max_hit_count)
 		}
 		sprite_index = sprite_shinobo_walking;
 	}
-	else if (!(keyboard_check(vk_space) && dash_count < max_dash_count))
+	else if (!(keyboard_check(vk_space) && can_dash && dash_count < max_dash_count))
 	{
 		x_velocity = 0;
 		sprite_index = sprite_shinobo_idle;
@@ -71,7 +71,7 @@ if (hit_count < max_hit_count)
 			airborne = true;
 			audio_play_sound(sound_jumping_fx, 10, false);
 		}
-		else if (!double_jumped)
+		else if (can_double_jump && !double_jumped)
 		{
 			y_velocity = jump_velocity;
 			double_jumped = true;
