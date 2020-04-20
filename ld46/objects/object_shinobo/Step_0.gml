@@ -3,6 +3,30 @@
 
 if (hit_count < max_hit_count)
 {
+	// handle dashing
+	if (keyboard_check(vk_space) && dash_count < max_dash_count)
+	{
+		script_add_previous_position(x_position, y_position, image_xscale);
+		
+		x_velocity = min(x_velocity + 4 * x_acceleration, 4 * max_x_velocity);
+		
+		if (place_free(x_position + image_xscale * x_velocity, y_position))
+		{
+			x_position = x_position + image_xscale * x_velocity;
+		}
+
+		sprite_index = sprite_shinobo_dashing;
+		dash_count = min(dash_count + 1, max_dash_count);
+	}
+	else
+	{
+		if (!keyboard_check(vk_space))
+		{
+			dash_count = 0;
+		}
+		script_delete_last_previous_position();
+	}
+	
 	// handle moving left and right
 	dx = 0;
 	if (keyboard_check(vk_left))
@@ -14,7 +38,7 @@ if (hit_count < max_hit_count)
 		dx = 1;
 	}
 	
-	if (abs(dx) > 0)
+	if (abs(dx) > 0 && !(keyboard_check(vk_space) && dash_count < max_dash_count))
 	{
 		if (image_xscale != dx)
 		{
@@ -30,7 +54,7 @@ if (hit_count < max_hit_count)
 		}
 		sprite_index = sprite_shinobo_walking;
 	}
-	else
+	else if (!(keyboard_check(vk_space) && dash_count < max_dash_count))
 	{
 		x_velocity = 0;
 		sprite_index = sprite_shinobo_idle;

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "259a2ca7-9e69-4a25-be88-ddb2046357d0",
+            "Value": {
+                "id": "e53fd38d-f9dd-425d-ba89-ba27ebe17045",
+                "resourcePath": "objects\\object_wall\\object_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29ba161c-a856-4181-833d-70dddd96f9f5",
             "Value": {
                 "id": "3d87ea53-bd8f-40fb-b149-f5d68effaeb2",
@@ -332,6 +340,14 @@
                 "id": "b85e8bbf-0736-4662-aa57-f3e4bdd4eb57",
                 "resourcePath": "objects\/object_driller\/object_driller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "83fbe657-c674-4b32-979f-b19ce3f5cb89",
+            "Value": {
+                "id": "d85b3e0e-3dc3-4131-a967-fb8d46c1e799",
+                "resourcePath": "sprites\\sprite_game_instructions\\sprite_game_instructions.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -652,6 +668,14 @@
                 "id": "4bf5ba34-cf9c-40c8-8f65-edcc1e0143b5",
                 "resourcePath": "views\/e477e4d9-9621-46ce-b511-9cb1e9d8cf84.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e60ba396-a2ce-4b37-9b71-a42529133a2b",
+            "Value": {
+                "id": "f3974984-9bd9-467c-8bf4-7887d945bfa6",
+                "resourcePath": "objects\\object_game_instructions\\object_game_instructions.yy",
+                "resourceType": "GMObject"
             }
         },
         {
