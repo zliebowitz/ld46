@@ -17,7 +17,15 @@ if (!instance_exists(object_shinobo))
 if (!horizontal)
 {
 	dx = 0;
-	if (dy == 0)
+	if (shake_count < max_shake_count)
+	{
+		if (shake_count % 4 == 0 || shake_count % 4 ==3)
+			dx = 2;
+		else
+			dx = -2;
+		shake_count++;
+	}
+	else if (shake_count = max_shake_count && dy = 0)
 	{
 		// just swapped from horizontal
 		dy = 4;
@@ -42,6 +50,7 @@ if (horizontal)
 	dy = 0;
 	if (abs(x - object_shinobo.x) < 2)
 	{
+		shake_count = 0;
 		horizontal = false;
 	}
 }
