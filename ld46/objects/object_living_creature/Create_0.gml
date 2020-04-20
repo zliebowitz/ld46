@@ -10,3 +10,6 @@ max_dx = 32;
 death_music_played = false;
 
 jump_count = 0;
+
+max_countdown_count = 4 * room_speed;
+countdown_count = 0;

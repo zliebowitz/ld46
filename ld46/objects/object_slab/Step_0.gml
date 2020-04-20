@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (countdown_count < max_countdown_count)
+{
+	countdown_count++;
+	return;
+}
+
 if (sprite_index == death_sprite)
 {
 	if object_living_creature.sprite_index != sprite_living_creature_dying

@@ -15,3 +15,6 @@ max_wait_time = 4 * fps;
 was_hit = false;
 
 victory_played = false;
+
+max_countdown_count = 4 * room_speed;
+countdown_count = 0;

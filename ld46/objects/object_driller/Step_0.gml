@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (countdown_count < max_countdown_count)
+{
+	countdown_count++;
+	return;
+}
 
 /// @description Insert description here
 // You can write your code in this editor

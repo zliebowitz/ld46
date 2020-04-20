@@ -231,11 +231,27 @@
             }
         },
         {
+            "Key": "5b8f013f-81da-4a8e-b4b8-159bc017bdcb",
+            "Value": {
+                "id": "0484f2d8-f6ff-4c3d-86f3-4e36f8023937",
+                "resourcePath": "sprites\\sprite_countdown_3\\sprite_countdown_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cbd9f1f-ea2d-4d93-8641-face351ad7b4",
             "Value": {
                 "id": "5b5d9763-7c56-45ea-8ffd-ad1955d763fb",
                 "resourcePath": "objects\/object_slab\/object_slab.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5dcd6bf1-991d-40f8-b66b-cf3ff561274b",
+            "Value": {
+                "id": "d500eced-b1fc-4fb1-90ec-cd63ea6ce208",
+                "resourcePath": "sprites\\sprite_countdown_1\\sprite_countdown_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "a57dcf5c-bfc4-4a72-b13d-bf97e34f3467",
+            "Value": {
+                "id": "4fd7b124-ce81-4dfd-be65-d78c48fd53c4",
+                "resourcePath": "sprites\\sprite_countdown_2\\sprite_countdown_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "de8d9539-71ef-4284-a99f-1861be3c9235",
@@ -551,6 +575,14 @@
             }
         },
         {
+            "Key": "c858e60e-c048-475b-967e-5bbd863735e0",
+            "Value": {
+                "id": "b9d7916e-1c65-4aa3-a841-85fdd45c11dd",
+                "resourcePath": "objects\\object_countdown\\object_countdown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c86aaa36-207e-4bf3-a21f-9b3d39c95f2b",
             "Value": {
                 "id": "e6f2e99f-3cd6-4292-a6e2-3c5c328e2c9a",
@@ -579,6 +611,22 @@
             "Value": {
                 "id": "b62e5b1a-0eea-4f3f-a720-0349a270a341",
                 "resourcePath": "sprites\/sprite_shinobo_attacking\/sprite_shinobo_attacking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2d66387-8c24-40dd-886c-59bea90fbd7b",
+            "Value": {
+                "id": "db53d0ec-98f5-49f2-ad7d-f0fa8800bb68",
+                "resourcePath": "views\\d2d66387-8c24-40dd-886c-59bea90fbd7b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3290ed5-025d-42d4-8746-24c1dc7093bf",
+            "Value": {
+                "id": "d38ac4b8-9013-4604-89ee-8bf5167539da",
+                "resourcePath": "sprites\\sprite_countdown_go\\sprite_countdown_go.yy",
                 "resourceType": "GMSprite"
             }
         },

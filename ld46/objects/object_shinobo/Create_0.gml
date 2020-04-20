@@ -32,3 +32,6 @@ for (i = max_previous_positions - 1; i > -1; i--)
 	previous_positions_y[i] = global.dead_zone_y;
 	previous_positions_xscale[i] = image_xscale;
 }
+
+max_countdown_count = 4 * room_speed;
+countdown_count = 0;
