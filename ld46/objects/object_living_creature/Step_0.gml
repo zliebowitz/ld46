@@ -2,6 +2,12 @@
 // You can write your code in this editor
 if (!instance_exists(object_shinobo))
 	exit;
+	
+if (sprite_index == sprite_living_creature_victory)
+{
+	audio_stop_sound(sound_boss_music);
+	exit;
+}
 
 if (hit_count < max_hit_count)
 {

@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (sprite_index == death_sprite)
+{
+	if object_living_creature.sprite_index != sprite_living_creature_dying
+		object_living_creature.sprite_index = sprite_living_creature_victory
+	exit;
+}
+
 if (!instance_exists(object_shinobo))
 {
 	y = top;
