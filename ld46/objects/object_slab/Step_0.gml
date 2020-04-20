@@ -30,8 +30,9 @@ if (!horizontal)
 			dx = 2;
 		else
 			dx = -2;
+		shake_count++;
 	}
-	if (shake_count = max_shake_count && dy = 0)
+	else if (shake_count = max_shake_count && dy = 0)
 	{
 		// just swapped from horizontal
 		dy = 4;
