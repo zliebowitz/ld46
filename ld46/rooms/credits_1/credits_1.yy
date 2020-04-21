@@ -2,7 +2,7 @@
 {
     "name": "credits_1",
     "id": "c382f721-c0b6-40d2-b538-7a8c352226b5",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -16,7 +16,7 @@
             "name": "Assets_1",
             "id": "e80fe2c4-b340-45d6-9ca8-13260d7c64f7",
             "assets": [
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_671E1FA","id": "3a741aab-860c-4352-a096-fb2e1be884a7","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "5f0e1ad7-94c9-4c5b-b05b-cb11bc145679","userdefined_animFPS": false,"x": 32,"y": 0},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_671E1FA","id": "3a741aab-860c-4352-a096-fb2e1be884a7","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "5f0e1ad7-94c9-4c5b-b05b-cb11bc145679","userdefined_animFPS": false,"x": 0,"y": 0},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_496906FE","id": "b3a396e8-6c38-4791-94e0-44a982a9a435","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "e1229871-4d94-45e0-8c0a-9b448a658b60","userdefined_animFPS": false,"x": 320,"y": 224}
             ],
             "depth": 0,
