@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "87b5fa64-3370-4e08-b188-c18cf5b26891",
+            "Value": {
+                "id": "7e6ec82c-2b0b-40fa-9501-bd464e13a1fe",
+                "resourcePath": "sounds\\sound_slice_fx\\sound_slice_fx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8be5c517-ed14-4690-a8f8-ce616965aa29",
             "Value": {
                 "id": "b3f2eb24-6b38-46c3-ad52-f45a114540d9",
@@ -476,6 +484,14 @@
                 "id": "e25ce430-8f1c-476a-adf5-25f23092a8c7",
                 "resourcePath": "objects\/object_living_creature\/object_living_creature.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae2f6f9f-4f65-4d24-b2bc-a7de5295990c",
+            "Value": {
+                "id": "26200019-15ce-4ff5-93ce-6b412be9fc9c",
+                "resourcePath": "sounds\\sound_end_credits_music\\sound_end_credits_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {

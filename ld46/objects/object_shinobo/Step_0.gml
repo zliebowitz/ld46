@@ -138,8 +138,9 @@ if (hit_count < max_hit_count)
 	y = floor(y_position);
 	
 	// handle attacking
-	if (keyboard_check(ord("X")) && !attack_pressed)
+	if (keyboard_check(ord("X")) && !attack_pressed && attack_count == max_attack_count)
 	{
+		audio_play_sound(sound_slice_fx, 10, false);
 		attack_pressed = true;
 		attack_count = 0;
 	}
