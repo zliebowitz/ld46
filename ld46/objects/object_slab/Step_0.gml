@@ -43,7 +43,7 @@ if (!horizontal)
 		// just swapped from horizontal
 		dy = 4;
 	}
-	else if (y + sprite_width / 2 > object_ground.y)
+	else if (y + sprite_width / 2 - 32 > object_ground.y)
 	{
 		dy = -4;
 	}

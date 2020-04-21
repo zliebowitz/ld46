@@ -34,6 +34,14 @@
             "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
             "propertyId": "c869d5b6-ba6c-4d40-b84b-141b1d1354c4",
             "value": "sprite_blank"
+        },
+        {
+            "id": "e5d044c3-75bc-424a-ac85-c731f7646dc0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
+            "propertyId": "0e831879-1d8c-4bee-a564-a59284bc4728",
+            "value": "25"
         }
     ],
     "parentObjectId": "929f1758-1b03-4a80-a016-5c45eb19e4ee",
@@ -50,7 +58,9 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        
+    ],
     "solid": false,
     "spriteId": "8dfaa293-9ae3-47f8-bad3-ca3075126391",
     "visible": true
