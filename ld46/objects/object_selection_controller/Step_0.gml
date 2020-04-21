@@ -52,6 +52,6 @@ if (fade_count < max_fade_count)
 	
 	if (fade_count == max_fade_count)
 	{
-		room_goto(credits_1);
+		room_goto_next();
 	}
 }
